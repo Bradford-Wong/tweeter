@@ -2,3 +2,28 @@
   Write a handlebars template in this file to implement the main tweeter page,
   as described in README.md.
 }}
+{{> header}}
+
+<main class = "twit-container">
+      {{#each twits}}
+            {{>twit}}
+      {{/each}}
+      {{#if show}}
+            {{>createTwitModal}}
+      {{/if}}
+
+</main>
+
+{{!
+<main class = "people-page">
+      <div class = "title-container">
+            <h1>Blah </h1>
+      </div>
+
+      <div class = "twit-container">
+            {{#each twits}}
+            {{!      {{>twit}}
+                  {{!  {{/each}}
+
+            {{!  </div>
+</main>}}
