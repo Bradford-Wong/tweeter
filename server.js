@@ -1,4 +1,5 @@
 /*By: Bradford Wong. Code blog here: http://web.engr.oregonstate.edu/~wongbra/assignment-1-Bradford-Wong/blog.html*/
+/*Note: May have to do npm install -g handlebars before you run it.*/
 
 var path = require('path');
 var fs = require('fs');
