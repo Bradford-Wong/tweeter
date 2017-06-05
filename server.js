@@ -1,4 +1,4 @@
-/*By: Bradford Wong*/
+/*By: Bradford Wong. Code blog here: http://web.engr.oregonstate.edu/~wongbra/assignment-1-Bradford-Wong/blog.html*/
 
 var path = require('path');
 var fs = require('fs');
