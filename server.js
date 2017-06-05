@@ -1,3 +1,5 @@
+/*By: Bradford Wong*/
+
 var path = require('path');
 var fs = require('fs');
 var express = require('express');
@@ -69,7 +71,7 @@ app.get('/', function (req, res, next) {
         var templateArgs = {
              twits: twit,
              show: true,
-             individual: false,
+             individual: false, /*Not needed */
              /*
              text: twits.text, author: twits.author, title: "Twit author: " + twits.author*/
       }
