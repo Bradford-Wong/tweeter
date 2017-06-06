@@ -1,5 +1,4 @@
-/*By: Bradford Wong. Code blog here: http://web.engr.oregonstate.edu/~wongbra/assignment-1-Bradford-Wong/blog.html*/
-/*Note: May have to do npm install -g handlebars before you run it.*/
+/*By Bradford Wong */
 
 var path = require('path');
 var fs = require('fs');
@@ -61,18 +60,17 @@ app.get('/', function (req, res, next) {
       var templateArgs = {
            twits: [twit[3]],
            show: true,
-           individual: true,
+           individual: true, /*Not needed */
            /*
            text: twits.text, author: twits.author, title: "Twit author: " + twits.author*/
     }
-    console.log("Twit 3", twit[3]);
     console.log("TEMPLATE ARGS: ", templateArgs);
     res.render('twitPage', templateArgs);
 }else if(twit){
         var templateArgs = {
              twits: twit,
              show: true,
-             individual: false, /*Not needed */
+             individual: false,
              /*
              text: twits.text, author: twits.author, title: "Twit author: " + twits.author*/
       }
