@@ -7,7 +7,7 @@
 The goals of this assignment are to start to do some routing with Express and to start working with Handlebars for templating on the server.  There are several different parts of the assignment detailed below.
 
 ## What I've Done Previously for this Site
-Developed CSS and JavaScript.
+Developed CSS and JavaScript. These other files that I developed are in a different repository.
 
 ## Write a twit template partial
 
