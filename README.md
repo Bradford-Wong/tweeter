@@ -6,6 +6,9 @@
 
 The goals of this assignment are to start to do some routing with Express and to start working with Handlebars for templating on the server.  There are several different parts of the assignment detailed below.
 
+## What I've Done Previously for this Site
+Developed CSS and JavaScript.
+
 ## Write a twit template partial
 
 Your first job for this assignment is to write a Handlebars template partial for a single twit in the file `views/partials/twit.handlebars`.  The twit template should implement the twit structure we've been working with throughout the assignments in this course (this structure is detailed in a comment in the template file above).  It should take an argument for the twit text and an argument for the twit author and plug them into the appropriate place in the template.
